@@ -35,7 +35,10 @@ const routes = [
 ]
 routes.forEach(route => {
     router.get(route.url, (req, res) => {
-        res.status(route.status || 200).render(route.template)
+        res.status(route.status || 200).render(route.template, {
+            title: route.name,
+            links: routes
+        })
     })
 })
 

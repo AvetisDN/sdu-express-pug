@@ -1,0 +1,10 @@
+nav.navbar.bg-dark.navbar-dark.container-fluid
+    .container.py-3 
+        a.navbar-brand(href='/') The Site
+        .navbar-nav.flex-row.ms-auto 
+            each link in links
+                if(link.showInMenu)
+                    if(link.name === title)
+                        a.nav-link.ms-3.active(href=link.url) #{link.name}
+                    else 
+                        a.nav-link.ms-3(href=link.url) #{link.name}
