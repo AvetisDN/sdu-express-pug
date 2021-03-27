@@ -1,19 +1,19 @@
-#Express-Pug
+# Express-Pug
 
-##Installation:
+## Installation:
 
-###1. clone repo
+### 1. clone repo
 <code>git clone https://github.com/AvetisDN/sdu-express-pug.git
 </code>
 
-###2. change directory
+### 2. change directory
 <code>cd sdu-express-pug
 </code>
 
-###3. install modules
+### 3. install modules
 <code>npm install
 </code>
 
-###4. run server
+### 4. run server
 <code>npm run dev
 </code>
